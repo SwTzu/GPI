@@ -121,7 +121,8 @@ const HoneycombBoard = () => {
   };
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
+      <h2 className="text-xl  mb-4">Tablero Actual</h2>
       {createBoard()}
     </div>
   );
