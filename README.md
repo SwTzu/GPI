@@ -22,7 +22,7 @@
 1. `npm start` dentro la carpeta contendora del Front.
 
 ## CARACTERÍSTICAS:
-![main](https://imgur.com/a/hDd9jPX)
+![main]([https://imgur.com/a/hDd9jPX](https://imgur.com/a/hDd9jPX))
 
 - Obtener estado del jugador (Vida / Oro)
 - Obtener parametros de la partida (Ronda / Jugadores)
