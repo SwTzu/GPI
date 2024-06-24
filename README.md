@@ -14,15 +14,16 @@
 7. Desactiva todas las superposiciones en el juego.
 
 ##EJECUCÍON:
-#BACK#
+
+~~BACK~~
 1. Ejecuta el archivo `app.py` en una ventana CMD. 
 2. Ejecuta el archivo `main.py` en otra ventana CMD.
 
-#FRONT
+~~FRONT~~
 1. `npm start` dentro la carpeta contendora del Front.
 
 ## CARACTERÍSTICAS:
-![main]([https://imgur.com/a/hDd9jPX](https://imgur.com/a/hDd9jPX))
+![main](https://imgur.com/a/hDd9jPX)
 
 - Obtener estado del jugador (Vida / Oro)
 - Obtener parametros de la partida (Ronda / Jugadores)
