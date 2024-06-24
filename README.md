@@ -1,4 +1,4 @@
-## Antes de utilizar:
+   ## Antes de utilizar:
 - League of Legends debe estar en español.
 - Se requiere una resolución de 1920x1080 en modo ventana sin bordes, los analsis de ScreenScraper estan hecho en base a esas dimensiones.
 
@@ -23,10 +23,11 @@
 1. `npm start` dentro la carpeta contendora del Front.
 
 ## CARACTERÍSTICAS:
-![main](https://imgur.com/a/hDd9jPX.png)
+![main](https://i.imgur.com/hDd9jPX.png)
 
 - Obtener estado del jugador (Vida / Oro)
 - Obtener parametros de la partida (Ronda / Jugadores)
 - Obtener las mejores composiciones de TFT (API Externa).
 - Analisis de la tienda en tiempo real utilizando ScreenScraper para indicar que campeones comprar.
 - Detección de comandos de voz para realizar acciones del juego (Comprar a <Campeon> / Reroll / Actualizar tienda).
+
