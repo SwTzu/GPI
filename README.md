@@ -23,7 +23,7 @@
 1. `npm start` dentro la carpeta contendora del Front.
 
 ## CARACTERÍSTICAS:
-![main](https://i.imgur.com/3e6hKFp.png)
+![main](https://i.imgur.com/a/hDd9jPX.png)
 - Obtener estado del jugador (Vida / Oro)
 - Obtener parametros de la partida (Ronda / Jugadores)
 - Obtener las mejores composiciones de TFT (API Externa).
