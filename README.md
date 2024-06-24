@@ -1,4 +1,7 @@
-   ## Antes de utilizar:
+## ESTRATEGO:
+Este proyecto es una herramienta que proporciona información y recomendaciones para mejorar el rendimiento de los jugadores en partidas de Teamfight Tactics (TFT) modo de juego de League of Legends. Utiliza APIs propias del juego, APIs extenernas y ScreenScraper para recopilar datos en tiempo real, ofreciendo detalles como el estado del jugador, parámetros de la partida, las mejores composiciones de TFT, análisis de la tienda y detección de comandos de voz para acciones in-game.
+
+## Antes de utilizar:
 - League of Legends debe estar en español.
 - Se requiere una resolución de 1920x1080 en modo ventana sin bordes, los analsis de ScreenScraper estan hecho en base a esas dimensiones.
 
@@ -13,8 +16,7 @@
 6. Configura `settings.py` para que la ruta del cliente de League of Legends sea correcta.
 7. Desactiva todas las superposiciones en el juego.
 
-##EJECUCÍON:
-
+## EJECUCÍON:
 **BACK**
 1. Ejecuta el archivo `app.py` en una ventana CMD. 
 2. Ejecuta el archivo `main.py` en otra ventana CMD.
