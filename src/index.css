@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: white;
+  margin: 0;
+<<<<<<< HEAD
+  padding: 0;
+=======
+>>>>>>> 149e74a1ffa880b579d88da04c8535242e3fda58
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hex-cell {
+  clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+}
+
+.honeycomb-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 2px;
+}
+
+.hexagon {
+  position: relative;
+<<<<<<< HEAD
+  width: 60px;
+  height: 60px;
+=======
+  width: 80px;
+  height: 80px;
+>>>>>>> 149e74a1ffa880b579d88da04c8535242e3fda58
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  background: rgb(143, 143, 143); /* Color del borde */
+}
+
+.hexagon::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: rgb(63, 63, 63);
+  clip-path: inherit;
+}
+
+.hexagon img {
+  position: absolute;
+  top: 2px; /* igual al grosor del borde */
+  left: 2px; /* igual al grosor del borde */
+  width: calc(100% - 4px); /* tamaño del contenedor - (grosor del borde * 2) */
+  height: calc(100% - 4px); /* tamaño del contenedor - (grosor del borde * 2) */
+  object-fit: cover;
+  clip-path: inherit;
+}
+
+.indicator-list li {
+  position: relative;
+}
+
+.indicator-list li::before {
+  content: '';
+  position: absolute;
+  top: -18px; /* Ajusta esta distancia según lo necesites */
+  left: 0;
+  width: 100%;
+  height: 4px; /* Ajusta el grosor de la línea */
+  background-color: #8abfc5; /* Cambia esto al color que desees */
+}
+
+
+@layer utilities {
+  .bg-dots-pattern {
+    background-image: radial-gradient(circle, rgba(94, 94, 94, 0.25) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+@layer components {
+  .bg-primary {
+    background-color: #FF3D7F;
+  }
+
+  .bg-secondary {
+    background-color: #3FB8AF;
+  }
+
+  .pulse-ring {
+    content: '';
+    width: 150px;
+    height: 150px;
+    border: 5px solid #FF3D7F;
+    border-radius: 50%;
+    position: absolute;
+    animation: pulsate 2s infinite;
+  }
+
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+}
