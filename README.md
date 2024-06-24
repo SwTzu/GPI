@@ -1,4 +1,4 @@
-## ESTRATEGO:
+## ESTRATEGO TFT SET 11
 Este proyecto es una herramienta que proporciona información y recomendaciones para mejorar el rendimiento de los jugadores en partidas de Teamfight Tactics (TFT) modo de juego de League of Legends. Utiliza APIs propias del juego, APIs extenernas y ScreenScraper para recopilar datos en tiempo real, ofreciendo detalles como el estado del jugador, parámetros de la partida, las mejores composiciones de TFT, análisis de la tienda y detección de comandos de voz para acciones in-game.
 
 ## Antes de utilizar:
