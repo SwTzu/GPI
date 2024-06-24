@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "electron-is-dev": "^3.0.1",
     "fuse.js": "^7.0.0",
     "react": "^18.3.1",
@@ -22,12 +23,24 @@
     "web-vitals": "^2.1.4"
   },
   "main": "src/main.js",
+=======
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "web-vitals": "^2.1.4"
+  },
+>>>>>>> 149e74a1ffa880b579d88da04c8535242e3fda58
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "electron": "electron ."
+=======
+    "eject": "react-scripts eject"
+>>>>>>> 149e74a1ffa880b579d88da04c8535242e3fda58
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +61,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "electron": "^30.0.8",
+=======
+>>>>>>> 149e74a1ffa880b579d88da04c8535242e3fda58
     "tailwindcss": "^3.4.3"
   }
 }

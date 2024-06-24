@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 export default function Traits() {
@@ -8,6 +9,15 @@ export default function Traits() {
 
     
 
+=======
+import React from 'react';
+import traitsData from '../data/traits.js';
+
+export default function Traits() {
+    //ordenar los rasgos de mayor a menor basado en el atributo count
+    const sortedTraits = [...traitsData.traits].sort((a, b) => b.count - a.count);
+
+>>>>>>> 149e74a1ffa880b579d88da04c8535242e3fda58
     return (
         <div className="mt-6">
             {/* <h2 className="text-xl font-bold mb-2">Rasgos</h2> */}

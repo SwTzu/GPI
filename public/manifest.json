@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "short_name": "ReactApp",
+=======
+  "short_name": "React App",
+>>>>>>> 149e74a1ffa880b579d88da04c8535242e3fda58
   "name": "Create React App Sample",
   "icons": [
     {
