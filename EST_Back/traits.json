@@ -1,0 +1,482 @@
+{
+    "traits": [
+      {
+        "name": "Altruist",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Altruists heal the lowest Health ally for 15% of damage they deal. Your team gains Armor and Magic Resist."
+          },
+          {
+            "required_units": 4,
+            "effect": "Your team gains Armor and Magic Resist."
+          }
+        ]
+      },
+      {
+        "name": "Arcanologist",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Arcanists gain Ability Power and grant Ability Power to allies."
+          },
+          {
+            "required_units": 4,
+            "effect": "Arcanists gain Ability Power and grant Ability Power to allies."
+          },
+          {
+            "required_units": 6,
+            "effect": "Arcanists gain Ability Power and grant Ability Power to allies."
+          },
+          {
+            "required_units": 8,
+            "effect": "Arcanists gain Ability Power and grant Ability Power to allies."
+          }
+        ]
+      },
+      {
+        "name": "Artist",
+        "levels": [
+          {
+            "required_units": 1,
+            "effect": "The Artist paints the champion you place in a special bench slot. Get a 1-star copy of the champion placed there when the Artist's work is complete.",
+            "rounds_to_complete": "Unit Cost"
+          }
+        ]
+      },
+      {
+        "name": "Behemoth",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Behemoths gain increased Armor and Magic Resist."
+          },
+          {
+            "required_units": 4,
+            "effect": "Behemoths gain increased Armor and Magic Resist."
+          },
+          {
+            "required_units": 6,
+            "effect": "Behemoths gain increased Armor and Magic Resist."
+          }
+        ]
+      },
+      {
+        "name": "Brawler",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Your team gains 100 maximum Health."
+          },
+          {
+            "required_units": 4,
+            "effect": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health."
+          },
+          {
+            "required_units": 6,
+            "effect": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health."
+          },
+          {
+            "required_units": 8,
+            "effect": "Your team gains 100 maximum Health. Bruisers gain additional maximum Health. Every 3 seconds, Bruisers deal 6% bonus physical damage on their next attack."
+          }
+        ]
+      },
+      {
+        "name": "Duelist",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Duelists gain Attack Speed on each attack, stacking up to 12 times."
+          },
+          {
+            "required_units": 4,
+            "effect": "Duelists gain Attack Speed on each attack, stacking up to 12 times. Duelists take 12% less damage"
+          },
+          {
+            "required_units": 6,
+            "effect": "Duelists gain Attack Speed on each attack, stacking up to 12 times. Duelists take 12% less damage"
+          },
+          {
+            "required_units": 8,
+            "effect": "Duelists gain Attack Speed on each attack, stacking up to 12 times. Duelists take 18% less damage"
+          }
+        ]
+      },
+      {
+        "name": "Commendable",
+        "levels": [
+          {
+            "required_units": 3,
+            "effect": "Your team gains 7% bonus damage, plus more based on your level. After combat, store XP in a Soul Core. Sell the Core to claim the XP."
+          },
+          {
+            "required_units": 5,
+            "effect": "Your team gains 7% bonus damage, plus more based on your level. After combat, store XP in a Soul Core. Sell the Core to claim the XP."
+          }
+        ]
+      },
+      {
+        "name": "Formidable",
+        "levels": [
+          {
+            "required_units": 1,
+            "effect": "Every 3 casts, Wukong grows his weapon, modifying his Abilities."
+          }
+        ]
+      },
+      {
+        "name": "Invoker",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Every 3 seconds, your units gain Mana."
+          },
+          {
+            "required_units": 4,
+            "effect": "Every 3 seconds, your units gain Mana."
+          },
+          {
+            "required_units": 6,
+            "effect": "Every 3 seconds, your units gain Mana."
+          }
+        ]
+      },
+      {
+        "name": "Lovers",
+        "levels": [
+          {
+            "required_units": 1,
+            "effect": "Change which Lover takes the field depending on whether they are placed in the front or back 2 rows."
+          }
+        ]
+      },
+      {
+        "name": "Reaper",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Reapers' Abilities can critically strike and they gain 25% Critical Strike Chance."
+          },
+          {
+            "required_units": 4,
+            "effect": "Reapers' Abilities can critically strike and they gain 25% Critical Strike Chance. Additionally, Reapers bleed enemies for 50% bonus true damage over 2 seconds."
+          }
+        ]
+      },
+      {
+        "name": "Sage",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power."
+          },
+          {
+            "required_units": 3,
+            "effect": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power."
+          },
+          {
+            "required_units": 4,
+            "effect": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power."
+          },
+          {
+            "required_units": 5,
+            "effect": "Combat start: Allies in the front 2 rows gain Omnivamp. Allies in the back 2 rows gain Ability Power."
+          }
+        ]
+      },
+      {
+        "name": "Sharpshooter",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Innate: Snipers gain 1 Attack Range. Snipers deal more damage to targets farther away."
+          },
+          {
+            "required_units": 4,
+            "effect": "Innate: Snipers gain 1 Attack Range. Snipers deal more damage to targets farther away."
+          },
+          {
+            "required_units": 6,
+            "effect": "Innate: Snipers gain 1 Attack Range. Snipers deal more damage to targets farther away. Snipers gain an additional 2 Attack Range."
+          }
+        ]
+      },
+      {
+        "name": "Spirit Walker",
+        "levels": [
+          {
+            "required_units": 1,
+            "effect": "The first time the Spirit Walker drops below 50% Health, he unleashes the rage within, healing to full Health, gaining increased movement speed, and changing his Ability from Ram Slam to Tiger Strikes."
+          }
+        ]
+      },
+      {
+        "name": "Trickshot",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage."
+          },
+          {
+            "required_units": 4,
+            "effect": "Trickshots' abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage."
+          }
+        ]
+      },
+      {
+        "name": "Trickshot/Altruist",
+        "levels": [
+          {
+            "required_units": 1,
+            "effect": "Place in the back two rows to get Trickshot, place in the front two rows to get Altruist!"
+          }
+        ]
+      },
+      {
+        "name": "Guardian",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 18% less damage."
+          },
+          {
+            "required_units": 4,
+            "effect": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 18% less damage."
+          },
+          {
+            "required_units": 6,
+            "effect": "Wardens take less damage. For the first 10 seconds of combat, they take an additional 18% less damage."
+          }
+        ]
+      },
+      {
+        "name": "Draconic Lord",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat."
+          },
+          {
+            "required_units": 3,
+            "effect": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat."
+          },
+          {
+            "required_units": 3,
+            "effect": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat."
+          },
+          {
+            "required_units": 4,
+            "effect": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat. Additionally, Stuns for 1.5 seconds."
+          },
+          {
+            "required_units": 5,
+            "effect": "After 8 seconds of combat, the Dragon strikes the board, dealing true damage to enemies and granting all allies Attack Speed for the rest of combat. Additionally, Stuns for 1.5 seconds."
+          }
+        ]
+      },
+      {
+        "name": "Dryad",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Dryads gain Ability Power and 150 Health. Each enemy death grants permanent additional Health."
+          },
+          {
+            "required_units": 4,
+            "effect": "Dryads gain Ability Power and 150 Health. Each enemy death grants permanent additional Health."
+          },
+          {
+            "required_units": 6,
+            "effect": "Dryads gain Ability Power and 150 Health. Each enemy death grants permanent additional Health."
+          }
+        ]
+      },
+      {
+        "name": "Fated",
+        "levels": [
+          {
+            "required_units": 3,
+            "effect": "Hover one Fated unit over another to form a pair and unlock a Fated Bonus. Your pair gains 20% ."
+          },
+          {
+            "required_units": 5,
+            "effect": "All Fated champions get 200% of the Fated Bonus"
+          },
+          {
+            "required_units": 7,
+            "effect": "All Fated champions get 300% of the Fated Bonus"
+          },
+          {
+            "required_units": 10,
+            "effect": "All Fated champions gain 300% of EVERY Fated Bonus"
+          }
+        ]
+      },
+      {
+        "name": "Fortune",
+        "levels": [
+          {
+            "required_units": 3,
+            "effect": "Roll a die; in that many player combats, hold a Festival where you may convert your Luck into rewards."
+          },
+          {
+            "required_units": 5,
+            "effect": "Heal 2 player health at the start of each player combat."
+          },
+          {
+            "required_units": 7,
+            "effect": "Fortune smiles! Gain extra rewards and more luck every turn no matter what, and hold a Festival every turn."
+          }
+        ]
+      },
+      {
+        "name": "Ghostly",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Upon dealing or taking damage 5 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 2% max Health every 2 seconds."
+          },
+          {
+            "required_units": 4,
+            "effect": "Upon dealing or taking damage 5 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 2% max Health every 2 seconds."
+          },
+          {
+            "required_units": 6,
+            "effect": "Upon dealing or taking damage 5 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 2% max Health every 2 seconds."
+          },
+          {
+            "required_units": 8,
+            "effect": "Upon dealing or taking damage 5 times, Ghostly units send 2 spectres to haunt nearby enemies and heal 2% max Health every 2 seconds."
+          }
+        ]
+      },
+      {
+        "name": "Heavenly",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play."
+          },
+          {
+            "required_units": 3,
+            "effect": "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play."
+          },
+          {
+            "required_units": 4,
+            "effect": "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play."
+          },
+          {
+            "required_units": 5,
+            "effect": "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play."
+          },
+          {
+            "required_units": 6,
+            "effect": "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play."
+          },
+          {
+            "required_units": 7,
+            "effect": "Heavenly units grant unique stats to your team, increased for each Heavenly unit in play."
+          }
+        ]
+      },
+      {
+        "name": "Inkshadow",
+        "levels": [
+          {
+            "required_units": 3,
+            "effect": "Gain unique Inkshadow items. Inkshadow champions gain 5% bonus damage and damage reduction."
+          },
+          {
+            "required_units": 5,
+            "effect": "Gain unique Inkshadow items. Inkshadow champions gain 5% bonus damage and damage reduction."
+          },
+          {
+            "required_units": 7,
+            "effect": "Gain unique Inkshadow items. Inkshadow champions gain 5% bonus damage and damage reduction."
+          }
+        ]
+      },
+      {
+        "name": "Mythic",
+        "levels": [
+          {
+            "required_units": 3,
+            "effect": "Mythic champions gain Health, Ability Power, and Attack Damage."
+          },
+          {
+            "required_units": 5,
+            "effect": "Mythic champions gain Health, Ability Power, and Attack Damage."
+          },
+          {
+            "required_units": 7,
+            "effect": "Mythic champions gain Health, Ability Power, and Attack Damage."
+          },
+          {
+            "required_units": 10,
+            "effect": "Instantly become Epic. The bonus is increased by 250% instead."
+          }
+        ]
+      },
+      {
+        "name": "Porcelain",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds."
+          },
+          {
+            "required_units": 4,
+            "effect": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds."
+          },
+          {
+            "required_units": 6,
+            "effect": "After casting, Porcelain champions boil, gaining Attack Speed and taking less damage for 4 seconds."
+          }
+        ]
+      },
+      {
+        "name": "Rhapsode",
+        "levels": [
+          {
+            "required_units": 3,
+            "effect": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health."
+          },
+          {
+            "required_units": 5,
+            "effect": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health."
+          },
+          {
+            "required_units": 7,
+            "effect": "Storyweavers summon a Hero named Kayle and evolve her. Storyweavers gain max Health."
+          },
+          {
+            "required_units": 10,
+            "effect": "Ascend. 250"
+          }
+        ]
+      },
+      {
+        "name": "Penumbra",
+        "levels": [
+          {
+            "required_units": 2,
+            "effect": "The moon illuminates hexes, Shielding units placed in them at the start of combat."
+          },
+          {
+            "required_units": 4,
+            "effect": "The moon illuminates hexes, Shielding units placed in them at the start of combat."
+          },
+          {
+            "required_units": 6,
+            "effect": "The moon illuminates hexes, Shielding units placed in them at the start of combat."
+          },
+          {
+            "required_units": 9,
+            "effect": "Executed enemies have a 100% chance to drop loot; 60% Health."
+          }
+        ]
+      }
+    ]
+  }
+  
