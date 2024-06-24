@@ -15,11 +15,11 @@
 
 ##EJECUCÍON:
 
-~~BACK~~
+~~(BACK)~~
 1. Ejecuta el archivo `app.py` en una ventana CMD. 
 2. Ejecuta el archivo `main.py` en otra ventana CMD.
 
-~~FRONT~~
+~~(FRONT)~~
 1. `npm start` dentro la carpeta contendora del Front.
 
 ## CARACTERÍSTICAS:
