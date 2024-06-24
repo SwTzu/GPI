@@ -14,7 +14,7 @@
 7. Desactiva todas las superposiciones en el juego.
 
 ##EJECUCÍON:
-#BACK
+#BACK#
 1. Ejecuta el archivo `app.py` en una ventana CMD. 
 2. Ejecuta el archivo `main.py` en otra ventana CMD.
 
