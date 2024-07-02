@@ -13,7 +13,7 @@ data_storage = {}
 selected_composition = {}
 
 isopen = {
-    "League_state": False
+    "League_is_open": False
     }
 
 comando_actual = {

@@ -56,8 +56,7 @@ class Game:
         Vec2.setup_screen(x_pos, y_pos, width, height)
         self.found_window = True
         try:
-            response = requests.put(settings.IS_OPEN, json={"League_state": True})
-            print(response)
+            response = requests.put(settings.IS_OPEN, json={"League_is_open": True})
             if response.status_code == 200:
                 pass
             else:
